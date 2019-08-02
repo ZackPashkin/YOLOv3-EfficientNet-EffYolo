@@ -6,8 +6,8 @@ Modification of YOLOv3 by applying EfficientNet as a backbone instead of Darknet
 
 
 reference
-https://github.com/zzh8829/yolov3-tf2
-https://arxiv.org/abs/1905.11946
-https://github.com/qubvel/efficientnet
-https://github.com/mingxingtan/efficientnet
-https://github.com/mingxingtan/mnasnet
+1.https://github.com/zzh8829/yolov3-tf2
+2.https://arxiv.org/abs/1905.11946
+3.https://github.com/qubvel/efficientnet
+4.https://github.com/mingxingtan/efficientnet
+5.https://github.com/mingxingtan/mnasnet
