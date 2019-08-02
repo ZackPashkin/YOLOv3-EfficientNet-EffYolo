@@ -17,3 +17,5 @@ reference
 4.https://github.com/mingxingtan/efficientnet
 
 5.https://github.com/mingxingtan/mnasnet
+
+6.https://github.com/tsing-cv/EfficientNet-tensorflow-eager
