@@ -19,3 +19,5 @@ reference
 5.https://github.com/mingxingtan/mnasnet
 
 6.https://github.com/tsing-cv/EfficientNet-tensorflow-eager
+
+7.https://www.reddit.com/r/MachineLearning/comments/bumjdc/r_efficientnet_rethinking_model_scaling_for
