@@ -3,6 +3,36 @@ Modification of YOLOv3 by applying EfficientNet as a backbone instead of Darknet
 
 
 
+Usage
+Installation
+Pip
+pip install -r requirements.txt
+Conda
+conda env create -f environment.yml
+conda activate yolov3-tf2
+Convert pre-trained Darknet weights
+
+
+# yolov3
+wget https://pjreddie.com/media/files/yolov3.weights -O data/yolov3.weights
+python convert.py
+
+
+##Detection
+# yolov3
+python detect.py --image ./data/meme.jpg
+
+# yolov3-tiny
+python detect.py --weights ./checkpoints/yolov3-tiny.tf --tiny --image ./data/street.jpg
+
+# webcam
+python detect_video.py --video 0
+
+# video file
+python detect_video.py --video path_to_file.mp4 --weights ./checkpoints/yolov3-tiny.tf --tiny
+
+
+
 
 
 reference
